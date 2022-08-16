@@ -23,7 +23,7 @@ export default function Page1({ changeStep }) {
             <p>You can always change them later.</p>
             <Form.Group>
               <p className="mt-0 mb-0">Full Name</p>
-              <input
+              <Form.Control
                 type="text"
                 value={data.fullname}
                 name="name"
@@ -34,7 +34,7 @@ export default function Page1({ changeStep }) {
                 }}
               />
               <p className="mt-0 mb-0"> Display Name</p>
-              <input
+              <Form.Control
                 type="text"
                 value={data.displayName}
                 name="name"

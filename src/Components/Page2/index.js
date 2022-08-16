@@ -23,7 +23,7 @@ export default function Page2({ changeStep }) {
             <p>You can always create another workspace later.</p>
             <Form.Group>
               <p className="mt-0 mb-0">WorkSpace Name</p>
-              <input
+              <Form.Control
                 type="text"
                 value={data.workspaceName}
                 name="name"
@@ -35,7 +35,7 @@ export default function Page2({ changeStep }) {
               />
               <p className="mt-0 mb-0">WorkSpace URL</p>
 
-              <input
+              <Form.Control
                 type="text"
                 value={data.workspaceURL}
                 name="name"

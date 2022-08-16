@@ -14,7 +14,7 @@ export default function Common() {
   }
   return (
     <>
-      <Card.Body>
+      <Card.Body text="center">
         <Row>
           <Col></Col>
           <Col>
