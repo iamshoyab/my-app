@@ -10,7 +10,9 @@ export default function Page4() {
           <Card.Body>
             <img src={Image} alt="completed" height="70px" />
             <h4>Congratulations, Eren!</h4>
-            <p>You have completed onboarding, you can start using Eden!</p>
+            <p className="text-muted">
+              You have completed onboarding, you can start using Eden!
+            </p>
             <Button variant="primary">Launch Eden</Button>
           </Card.Body>
         </Card>

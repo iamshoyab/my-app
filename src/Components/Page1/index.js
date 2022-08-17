@@ -20,9 +20,9 @@ export default function Page1({ changeStep }) {
         <Card className="mb-0 shadow-none" border="muted" text="center">
           <Card.Body>
             <h4>Welcome! First things first...</h4>
-            <p>You can always change them later.</p>
+            <p className="text-muted">You can always change them later.</p>
             <Form.Group>
-              <p className="mt-0 mb-0">Full Name</p>
+              <p className="mt-0 mb-0 text-muted">Full Name</p>
               <Form.Control
                 type="text"
                 value={data.fullname}
@@ -33,7 +33,7 @@ export default function Page1({ changeStep }) {
                   console.log(data);
                 }}
               />
-              <p className="mt-0 mb-0"> Display Name</p>
+              <p className="mt-0 mb-0 text-muted"> Display Name</p>
               <Form.Control
                 type="text"
                 value={data.displayName}

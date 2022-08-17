@@ -4,6 +4,7 @@ import Page1 from "../Page1";
 import Page2 from "../Page2";
 import Page3 from "../Page3";
 import Page4 from "../Page4";
+import Eden from "../Logos/eden.png";
 export default function Common() {
   const [step, setStep] = useState(1);
   function changeStep() {
@@ -14,6 +15,15 @@ export default function Common() {
   }
   return (
     <>
+      <Card.Header className="text-center">
+        <Row md={3}>
+          <Col></Col>
+          <Col sx={4}>
+            <img src={Eden} alt="Eden" />
+          </Col>
+          <Col></Col>
+        </Row>
+      </Card.Header>
       <Card.Body text="center">
         <Row>
           <Col></Col>

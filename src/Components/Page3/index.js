@@ -25,7 +25,9 @@ export default function Page3({ changeStep }) {
           <Card className="mb-0 shadow-none" border="muted" text="center">
             <Card.Body>
               <h4>How are you planning to use Eden</h4>
-              <p>We'll streamline your setup experience accordingly.</p>
+              <p className="text-muted">
+                We'll streamline your setup experience accordingly.
+              </p>
               <Row>
                 <Col>
                   <Card text="center" style={{ height: "15rem" }}>
@@ -37,7 +39,7 @@ export default function Page3({ changeStep }) {
                         width="30px"
                       />
                       <h5>For myself</h5>
-                      <span style={{ color: "light-grey" }}>
+                      <span className="text-muted">
                         Write better.Think more clearly.Stay organized.
                       </span>
                     </Card.Body>
@@ -50,7 +52,9 @@ export default function Page3({ changeStep }) {
 
                       <h5>With my team</h5>
 
-                      <p>wikis,docs,tasks & projects. All in one place.</p>
+                      <p className="text-muted">
+                        wikis,docs,tasks & projects. All in one place.
+                      </p>
                     </Card.Body>
                   </Card>
                 </Col>

@@ -20,9 +20,11 @@ export default function Page2({ changeStep }) {
         <Card className="mb-0 shadow-none" border="muted" text="center">
           <Card.Body>
             <h4>Let's set up a home for all your work</h4>
-            <p>You can always create another workspace later.</p>
+            <p className="text-muted">
+              You can always create another workspace later.
+            </p>
             <Form.Group>
-              <p className="mt-0 mb-0">WorkSpace Name</p>
+              <p className="mt-0 mb-0 text-muted">WorkSpace Name</p>
               <Form.Control
                 type="text"
                 value={data.workspaceName}
@@ -33,7 +35,7 @@ export default function Page2({ changeStep }) {
                   console.log(data);
                 }}
               />
-              <p className="mt-0 mb-0">WorkSpace URL</p>
+              <p className="mt-0 mb-0 text-muted">WorkSpace URL</p>
 
               <Form.Control
                 type="text"
