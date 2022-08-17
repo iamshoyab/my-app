@@ -19,7 +19,7 @@ export default function Page3({ changeStep }) {
   }
   return (
     <>
-      <Row md={3}>
+      <Row>
         <Col></Col>
         <Col xs={4}>
           <Card className="mb-0 shadow-none" border="muted" text="center">
@@ -36,9 +36,7 @@ export default function Page3({ changeStep }) {
                         height="30px"
                         width="30px"
                       />
-
                       <h5>For myself</h5>
-
                       <span style={{ color: "light-grey" }}>
                         Write better.Think more clearly.Stay organized.
                       </span>
@@ -47,11 +45,13 @@ export default function Page3({ changeStep }) {
                 </Col>
                 <Col>
                   <Card text="center" style={{ height: "15rem" }}>
-                    <img src={Image2} alt="team" height="30px" width="30px" />
+                    <Card.Body>
+                      <img src={Image2} alt="team" height="30px" width="30px" />
 
-                    <h5>With my team</h5>
+                      <h5>With my team</h5>
 
-                    <p>wikis,docs,tasks & projects. All in one place.</p>
+                      <p>wikis,docs,tasks & projects. All in one place.</p>
+                    </Card.Body>
                   </Card>
                 </Col>
               </Row>
